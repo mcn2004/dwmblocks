@@ -11,6 +11,8 @@ static const Block blocks[] = {
 
   {" : ", "df -h /home | grep /dev | awk '{print $5}'", 480, 0},
 
+  {"    : ", "sh $XDG_DATA_HOME/dwmblocks_wrappers/get_batt.sh", 60, 0},
+
 	{"", "date '+%b %d (%a) %I:%M%p'",					5,		0},
 };
 
