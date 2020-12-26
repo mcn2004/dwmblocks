@@ -3,7 +3,7 @@ static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
   {"", "sh $XDG_DATA_HOME/dwmblocks_wrappers/get_connection.sh", 60, 0},
 
-  {"  : ", "python3 $XDG_DATA_HOME/dwmblocks_wrappers/get_volume.py", 5, 0},
+  {"  : ", "python3 $XDG_DATA_HOME/dwmblocks_wrappers/get_volume.py", 2, 0},
 
   {" : ", "sh $XDG_DATA_HOME/dwmblocks_wrappers/get_cpu.sh", 1, 0},
 
